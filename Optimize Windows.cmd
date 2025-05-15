@@ -263,21 +263,6 @@ cleanmgr /sagerun:1
 
 timeout /t 2
 cls
-echo "Đang chạy Defragment and Optimize Drives..."
-:: Chạy Defragment and Optimize Drives
-echo Đang bắt đầu tối ưu và phân tích ổ đĩa...
-
-for /f "skip=1" %%x in ('wmic logicaldisk get caption') do (
-    echo Đang chạy phân tích và tối ưu cho ổ đĩa %%x
-    echo Đang phân tích ổ đĩa...
-    defrag -a -v %%x
-    echo Đang bắt đầu tối ưu ổ đĩa %%x
-    defrag -o -v %%x
-)
-
-echo Hoàn tất tối ưu và phân tích ổ đĩa.
-Goto DeepCleanup
-
 :DeepCleanup
 timeout /t 2
 Cls
