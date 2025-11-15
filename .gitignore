@@ -1,0 +1,14 @@
+# Bỏ toàn bộ project WPF và script kích hoạt
+/TSToolkit/
+/Microsoft-Activation-Scripts/
+
+# Bỏ các thư mục config / build rác
+/.vs/
+/.vscode/
+/bin/
+/obj/
+
+# Git files
+.DS_Store
+Thumbs.db
+

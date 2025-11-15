@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+  <version>1.0.0.0</version>
+  <url>https://github.com/TeoSushi1014/TSToolkit/releases/download/v1.0.0/TSToolkitSetup_1.0.0.exe</url>
+  <changelog>TSToolkit 1.0.0 - bản UI đầu tiên, thêm giao diện WPF để chạy các script .cmd.</changelog>
+  <mandatory>false</mandatory>
+</item>
+
